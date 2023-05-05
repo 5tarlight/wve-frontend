@@ -1,9 +1,11 @@
-import { Inter } from "next/font/google";
+import { NextPage } from "next";
 
-export default function Home() {
+const Index: NextPage = () => {
   return (
     <>
-      <h1>WVE</h1>
+      <h1>Hello WVE</h1>
     </>
   );
-}
+};
+
+export default Index;
